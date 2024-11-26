@@ -1,0 +1,142 @@
+.content {
+    background-image: 'data/bg_image.jpg';  /* Set the path to your background image */
+    background-size: cover;  /* Ensure the background covers the entire div */
+    background-position: center;  /* Center the background image */
+    padding: 0px;  /* Add some padding to ensure text is not too close to the edges */
+    font-size: large;
+}
+.custom-text {
+      /* Change text color to ensure it's visible against the background */
+    font-size: 30px;  /* Adjust as needed */
+    line-height: 1;  /* Adjust line height for better readability */
+}
+.centered-markdown {
+    font-size: xx-large;
+}
+
+h1
+{
+    font-size: 10rem;
+}
+
+h2
+{
+    font-size: 3.5rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+/*style settings for section 2 text*/
+.section2-text
+{
+    font-size: 2rem;
+}
+
+.section2-note
+{
+    font-size: 1.5rem;
+}
+
+
+div.stButton button {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #1A3673;
+    background-color:  #1A3673;
+    transition: background-color 0.3s ease;
+    color: white
+    
+}
+
+div.stButton button:active {
+    background-color: #44B8F3;
+    text-emphasis-color: white; /* Active (clicked) color for main page buttons */
+}
+
+button[kind="secondary"]
+{
+    border-color: #1A3673;
+    background-color:  #1A3673;
+    transition: background-color 0.3s ease;
+    color: white
+}
+
+/* 
+Style settings for streamlit button in dark-mode
+*/
+
+.st-emotion-cache-1n47svx:hover {
+    border-color: #44B8F3;
+    color: white;
+}
+
+.st-emotion-cache-1n47svx:focus:not(:active) {
+    border-color: #44B8F3;
+    color: white;
+}
+
+
+.st-emotion-cache-1n47svx:focus-visible {
+    border-color: #44B8F3;
+    color: white;
+}
+
+/* 
+Style settings for streamlit button in light-mode
+*/
+
+.st-emotion-cache-1igbibe:hover {
+    border-color: #44B8F3;
+    color: white;
+}
+
+.st-emotion-cache-1igbibe:focus:not(:active) {
+    border-color: #44B8F3;
+    color: white;
+}
+
+.st-emotion-cache-1igbibe:focus-visible {
+    border-color: #44B8F3;
+    color: white;
+}
+
+/* 
+Style settings for streamlit selectbox
+*/
+.st-cu {
+    border-color:   #44B8F3;
+    background-color:  #1A3673;
+    color: white;
+    block-size: auto;
+}
+
+.st-ba {
+    border-color: #1A3673;
+    background-color:  #1A3673;
+    transition: background-color 0.3s ease;
+    color: white
+}
+
+/* font-size for streamlit table elements*/
+.st-emotion-cache-1fy0zab {
+    font-size: 2rem;
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 1.5;
+    overflow: overlay;
+}
+
+.st-emotion-cache-1qg05tj{
+    font-size: 2em;
+}
+
+.st-emotion-cache-ysk9xe p {
+    word-break: break-word;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
